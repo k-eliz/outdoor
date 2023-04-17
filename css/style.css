@@ -116,6 +116,43 @@ body {
   color: #caccd1;
 }
 
+.about-us {
+  display: flex;
+  gap: 104px;
+  padding: 100px;
+}
+
+.about-us__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.about-us__subtitle {
+  text-transform: uppercase;
+  color: #e6b939;
+}
+
+.about-us__title {
+  font-size: 36px;
+  color: #575445;
+  font-family: "Roboto";
+}
+
+.about-us__text {
+  font-size: 16px;
+  color: #575445;
+}
+
+.about-us__more {
+  font-size: 15px;
+  color: #575445;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
 .footer {
   display: flex;
   background-color: #575445;
