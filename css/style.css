@@ -298,32 +298,37 @@ body {
 
 .photo {
   background: url(../images/photo.jpg) center no-repeat;
+  position: relative;
   height: 600px;
   background-size: cover;
 }
 
 .photo__menu {
   display: inline-flex;
-  margin-top: 512px;
-  margin-left: 785px;
+  position: absolute;
+  padding: 17px 22px;
+  right: 40px;
+  bottom: 40px;
   flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-end;
   gap: 20px;
   background: #292c32;
   border-radius: 16px;
-  height: 48px;
 }
 
 .photo__item {
   display: flex;
   gap: 8px;
   align-items: center;
+  font-size: 12px;
+  color: #fff;
 }
 
 .shop {
   background: url(../images/shop.jpg) center no-repeat;
   background-size: cover;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 .shop__info {
@@ -331,15 +336,36 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 7px;
-  padding: 100px 0;
+  gap: 15px;
   max-width: 538px;
+}
+
+.shop__subtitle {
+  color: #fafafc;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.shop__title {
+  font-family: "Roboto";
+  font-size: 36px;
+  color: #e6b939;
+  line-height: 36px;
 }
 
 .shop__text {
   text-align: center;
+  font-size: 16px;
+  color: #fafafc;
 }
 
+.shop__btn {
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 10px 18px;
+  font-size: 15px;
+  color: #575445;
+}
 .footer {
   display: flex;
   background-color: #575445;
