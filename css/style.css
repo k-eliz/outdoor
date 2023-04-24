@@ -380,6 +380,27 @@ body {
   flex-direction: column;
   gap: 7px;
 }
+.guides__subtitle {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #e6b939;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.guides__title {
+  font-family: "Roboto";
+  font-size: 36px;
+  color: #575445;
+  font-weight: 400;
+}
+
+.guides__text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #575445;
+}
+
 .guides__posts {
   display: flex;
   flex-direction: row;
@@ -390,11 +411,31 @@ body {
 }
 .guides-post__title {
   padding-top: 18px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #575445;
+  max-width: 458px;
 }
+
+.post-user__info_name {
+  font-family: "Roboto";
+  font-size: 13px;
+  color: #575445;
+}
+.post-user__info_prof {
+  font-size: 11px;
+  color: #e6b939;
+}
+
+.post-user__date {
+  font-size: 13px;
+  color: #6f7278;
+}
+
 .post-user {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding-top: 12px;
 }
 
@@ -408,18 +449,19 @@ body {
 
 .post-user__text {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.post-user__info {
-  display: flex;
   flex-direction: column;
   padding-left: 12px;
 }
 
+.post-user__info {
+  display: flex;
+}
+
 .post-user__link {
   margin: 0 auto;
+  padding-bottom: 200px;
+  font-size: 15px;
+  color: #575445;
 }
 
 .footer {
