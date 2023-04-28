@@ -153,6 +153,9 @@ body {
   align-items: center;
 }
 
+.our-promise {
+  padding: 100px 160px 160px 160px;
+}
 .our-promise__info {
   max-width: 540px;
   display: flex;
@@ -171,6 +174,7 @@ body {
   font-family: "Roboto";
   font-size: 36px;
   color: #575445;
+  text-align: center;
 }
 
 .our-promise__text {
@@ -181,11 +185,10 @@ body {
 
 .our-promise__cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   column-gap: 100px;
   row-gap: 110px;
   padding-top: 70px;
-  padding-bottom: 160px;
 }
 
 .promise-card {
@@ -577,6 +580,14 @@ body {
   .about-us__img {
     width: 350px;
   }
+
+  .our-promise {
+    padding: 50px 80px 80px 80px;
+  }
+  .our-promise__cards {
+    column-gap: 70px;
+    row-gap: 90px;
+  }
 }
 @media (max-width: 768px) {
   .about-us__img {
@@ -586,10 +597,26 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  .our-promise__cards {
+    padding-bottom: 30px;
+  }
 }
 
 @media (max-width: 640px) {
   .about-us {
     padding: 16px;
+  }
+  .our-promise {
+    padding: 25px 25px 25px 25px;
+  }
+  .our-promise__title {
+    font-size: 28px;
+  }
+  .our-promise__text {
+    font-size: 14px;
+  }
+  .our-promise__cards {
+    column-gap: 50px;
+    row-gap: 60px;
   }
 }
